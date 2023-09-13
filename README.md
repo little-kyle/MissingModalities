@@ -22,14 +22,16 @@
 &emsp;对于缺失模态的学习方法主要可以分为：①对于每一种的缺失模态情况都进行一个model的训练；②合成缺失的模态；③将所有模态映射到他同一个潜在的表征空间内（只需要训练一个model）。对每一种模态都进行一个单独的model的训练需要一共训练 $2^n-1$ 个处理缺失模态的模型；对比之下，将模态编码到一个共同的特征空间只需要一个模型；
 &emsp;对于编码到同一个表征空间中，目标是能将模态信息提取出来，最小化确实模态所损失的信息。
 &emsp;[HVED](https://arxiv.org/abs/1907.11150)
-&emsp;<font face="楷体">采用数据集BraTS2018，将MVAE扩展到含有缺失模态的多模态数据集上的3D分割任务上；基于mixture sampling procedure，提出了一个优化过程的principled formulation；将3D Unet应用到一个变分框架中。
-
-</font>
+&emsp;<font face="楷体">采用数据集BraTS2018，将MVAE扩展到含有缺失模态的多模态数据集上的3D分割任务上；基于mixture sampling procedure，提出了一个优化过程的principled formulation；将3D Unet应用到一个变分框架中。</font>
+&emsp;[mmFormer](https://arxiv.org/abs/2206.02425)
+<div align=center>
+<img src="Materials\pictures\mmformer.png" style="zoom:40%"/><br/>
+</div>
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
 &emsp;
 
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
+
